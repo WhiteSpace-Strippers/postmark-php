@@ -14,20 +14,20 @@
  *
  * Usage:
  * Mail_Postmark::compose()
- *      ->addTo('address@example.com', 'Name')
- *      ->subject('Subject')
- *      ->messagePlain('Plaintext message')
- *	    ->tag('Test tag')
- *      ->send();
+ *			->addTo('address@example.com', 'Name')
+ *			->subject('Subject')
+ *			->messagePlain('Plaintext message')
+ *			->tag('Test tag')
+ *			->send();
  *
  * or:
  *
  * $email = new Mail_Postmark();
  * $email->addTo('address@example.com', 'Name')
- *      ->subject('Subject')
- *      ->messagePlain('Plaintext message')
- *	    ->tag('Test tag')
- *      ->send();
+ *			->subject('Subject')
+ *			->messagePlain('Plaintext message')
+ *			->tag('Test tag')
+ *			->send();
  */
 
 class Mail_Postmark
@@ -398,7 +398,7 @@ class Mail_Postmark
 	}
 
 	/**
-	 * You can categorize outgoing email using the optional Tag  property.
+	 * You can categorize outgoing email using the optional Tag	property.
 	 * If you use different tags for the different types of emails your
 	 * application generates, you will be able to get detailed statistics
 	 * for them through the Postmark user interface.

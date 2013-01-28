@@ -26,7 +26,7 @@ Postmark PHP class changelog
 
 ## 0.4
 
-* SSL with validation against certificate 
+* SSL with validation against certificate
 * Multiple To
 * Validates all To, Cc and Bcc addresses
 * Custom headers
